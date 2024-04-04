@@ -68,6 +68,7 @@ header nav ul li a:hover{
     font-size: 22px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 35px;
+    text-align: center;
 }
 #introduction .intro-text button{
     width: 170px;
@@ -90,15 +91,22 @@ header nav ul li a:hover{
     font-weight: 500;
     transition: 0.3s;
 }
-/* start abuout */
+/* start about */
+#about .about-chef .about-right {
+    width: 47%;
+}
+#about .about-chef .about-left {
+    width: 47%;
+}
 #about .about-chef{
     display: flex;
     justify-content: space-between;
     margin-top: 140px;
 }
 #about .about-chef .about-right img{
-    width: 540px;
-    height: 361px;
+    width: 100%;
+    /* width: 540px;
+    height: 361px; */
 }
 #about .about-chef .about-left h4{
     color: #D4D4D4;
@@ -134,16 +142,14 @@ header nav ul li a:hover{
 }
 /* start offer */
 #offer .offer-top-bottom .offer-top h2{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 200;
     margin-bottom: 8px;
 }
 #offer .offer-top-bottom .offer-top p{
     font-size: 20px;
     line-height: 24px;
-    color: #B8B8B8;
-    text-align: center;
-    letter-spacing: 0.4px;
+    color: #B8B8B8;    text-align: center;
 }
 #offer .offer-top-bottom .offer-top h4{
     letter-spacing: 2px;
@@ -155,11 +161,11 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
+    width: 60%;
+    margin: auto;
 }
 #offer .offer-top-bottom .offer-bottom figure img{
-    width: 300px;
-    height: 200px;
+    width: 100%;
 }
 #offer .offer-top-bottom .offer-bottom figure a{
     display: flex;
@@ -175,6 +181,7 @@ header nav ul li a:hover{
 #offer .offer-top-bottom .offer-bottom{
     display: flex;
     justify-content: space-around;
+    margin-top: 80px;
 }
 #offer{
     margin-top: 180px;
@@ -204,18 +211,14 @@ header nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
     text-align: center;
 }
 #offer .offer-top-bottom .offer-bottom figure{
     background-color: #fff;
+    width: 32%;
 }
 
-#offer .offer-top-bottom{
-    /* display: flex;
-    flex-direction: column ;
-    align-items: center; */
-}
+
 #offer .offer-top-bottom .offer-icons{
     display: flex;
     justify-content: center;
@@ -224,14 +227,20 @@ header nav ul li a:hover{
 #offer .offer-top-bottom .offer-icons i{
     margin-right: 10px;
     font-size: 12px;
-    border: none; !important
+    border: none; 
 }
 #offer .offer-top-bottom .offer-bottom figure a:hover{
     background-color: #c26708;
 }
 /* start menu */
+#menu .menu-top-bottom .menu-bottom .menu-bottom-left{
+    width: 47%;
+}
+#menu .menu-top-bottom .menu-bottom .menu-bottom-right{
+    width: 47%;
+}
 #menu .menu-top-bottom .menu-top h2{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 200;
     margin-bottom: 8px;
 }
@@ -245,9 +254,12 @@ header nav ul li a:hover{
     margin-bottom: 50px;
 }
 .menu-top{
+    width: 50%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 #menu .menu-top-bottom .menu-top .intervals-day{
     display: flex;
@@ -291,7 +303,7 @@ header nav ul li a:hover{
 #menu .menu-top-bottom .menu-bottom p{
     margin-top: 10px;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
     color: #B8B8B8;
 }
 #menu .menu-top-bottom .menu-bottom h4{
@@ -309,7 +321,7 @@ header nav ul li a:hover{
 }
 /* start news */
 #news .news-top-bottom .news-top h2{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 200;
     margin-bottom: 8px;
 }
@@ -322,9 +334,12 @@ header nav ul li a:hover{
     /* text-align: center; */
 }
 #news .news-top-bottom .news-top{
+    width: 50%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-bottom: 55px;
 }
 #news{
@@ -337,8 +352,7 @@ header nav ul li a:hover{
     justify-content: space-between;
 }
 #news .news-top-bottom .news-bottom figure img{
-    width: 289px;
-    height: 192;
+    width: 100%;
 }
 #news .news-top-bottom .news-bottom h4{
     font-size: 24px;
@@ -347,6 +361,7 @@ header nav ul li a:hover{
     margin-bottom: 12px;
 }
 #news .news-top-bottom .news-bottom figure{
+    width: 32%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,7 +369,8 @@ header nav ul li a:hover{
     margin-bottom: 120px;
 }
 #news .news-top-bottom .news-bottom figure figcaption{
-    width: 193px;
+    padding-left: 50px ;
+    padding-right: 50px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -382,7 +398,7 @@ header nav ul li a:hover{
 }
 /* gallery */
 #gallery .gallery-top-bottom .gallery-top h2{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 200;
     margin-bottom: 8px;
 }
@@ -395,6 +411,8 @@ header nav ul li a:hover{
     text-align: center;
 }
 #gallery .gallery-top-bottom .gallery-top{
+    width: 50%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -405,17 +423,22 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#gallery .gallery-top-bottom .gallery-bottom img{
-    width: 354px;
-    height: 306px;
+#gallery .gallery-top-bottom .gallery-bottom div{
+    /* width: 354px;
+    height: 306px; */
+    width: 32%;
     margin-bottom: 3px;
+}
+#gallery .gallery-top-bottom .gallery-bottom div img{
+    width: 100%;
+    height: 306px;
 }
 #gallery{
     padding-top: 110px;
 }
 /* contact */
 #contact .contact-top-bottom .contact-top h2{
-    font-size: 54px;
+    font-size: 56px;
     font-weight: 200;
     margin-bottom: 8px;
 }
@@ -428,6 +451,8 @@ header nav ul li a:hover{
     text-align: center;
 }
 #contact .contact-top{
+    width: 50%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -449,21 +474,16 @@ header nav ul li a:hover{
     margin-bottom: 120px;
 }
 #contact .contact-top-bottom .contact-bottom .contact-bottom-right img{
-    width: 380px ;
-    height: 220px ;
+    width: 100%;
     margin-bottom: 10px;
 }
 #contact .contact-top-bottom .contact-bottom .contact-bottom-left input{
     padding: 20px 10px;
-    width: 530px;
+    width: 100%;
     height: 55px;
     background-color: #e6e6e6;
     border: none;
     margin-bottom: 12px;
-}
-#contact .contact-top-bottom .contact-bottom .contact-bottom-left{
-    display: flex;
-
 }
 #contact .contact-top-bottom .contact-bottom .contact-bottom-left textarea{
     background-color: #e6e6e6;
@@ -472,6 +492,12 @@ header nav ul li a:hover{
     margin-bottom: 14px;
     height: 222px;
 
+}
+#contact .contact-top-bottom .contact-bottom .contact-bottom-left{
+    width: 57%;
+}
+#contact .contact-top-bottom .contact-bottom .contact-bottom-right{
+    width: 31%;
 }
 #contact .contact-top-bottom .contact-bottom .contact-bottom-left textarea::placeholder{
     font-size: 18px;
@@ -511,9 +537,7 @@ footer{
     background-color: #222222;
     color: #ffffff99;
 }
-footer .footer-top .footer-lorem span{
-    color: #ffffff4d;
-}
+
 footer p{
     font-weight: bold;
     margin-bottom: 7px;
@@ -521,7 +545,7 @@ footer p{
 } 
 footer .footer-top ul li a{
     color: #ffffff4d;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
 }
 footer .footer-top a:hover{
@@ -533,8 +557,9 @@ footer{
 }
 footer .footer-lorem span{
     line-height: 22px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
+    color: #ffffff4d;
 }
 footer .footer-icons{
     display: flex;
@@ -576,8 +601,23 @@ footer .copyright a:hover{
 header .menu-category{
     display: none;
 }
+footer .footer-lorem{
+    width: 38%;
+}
+footer .footer-restaurant{
+    width: 20%;
+}
+footer .useful-links{
+    width: 20%;
+}
+footer .footer-top-bottom .footer-top div{
+    margin-right: 60px;
+}
 #offer .offer-top-bottom .offer-icons-tablet{
     display: none;
+}
+footer .footer-top p{
+    font-size: 14px;
 }
 
 @media  (max-width: 768px) {
@@ -621,12 +661,14 @@ header .menu-category{
     }
     /* about */
     #about .about-chef .about-right img {
-        width: 330px;
-        height: 220px;
+        width: 100%;
     }
     #about .about-chef .about-left {
-        width: 42%;
+        width: 38%;
         word-wrap: break-word;
+    }
+    #about .about-chef .about-right{
+        width: 48%;
     }
     #about .about-chef .about-left h2{
         font-size: 37px;
@@ -666,8 +708,8 @@ header .menu-category{
     }
     #offer .offer-top-bottom .offer-bottom figure figcaption{
         width: 100%;
-        padding-left: 22px;
-        padding-right: 22px;
+        padding-left: 65px;
+        padding-right: 65px;
         overflow-wrap: break-word;
     }
     #offer .offer-top-bottom .offer-icons-tablet{
@@ -810,10 +852,5 @@ header .menu-category{
 
 
 
-
-
-@media  (max-width: 530px) {
- 
-}
 
 
