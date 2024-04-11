@@ -16,6 +16,12 @@ header .container .header{
     align-items: center;
     height: 97px;
 }
+.header-left{
+    width: 30%;
+}
+nav{
+    width: 50%;
+}
 header .container .header nav ul{
     display: flex;
 }
@@ -57,6 +63,7 @@ header nav ul li a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 #introduction .intro-text h1{
     font-size: 72px;
@@ -71,7 +78,7 @@ header nav ul li a:hover{
     text-align: center;
 }
 #introduction .intro-text button{
-    width: 170px;
+    width: 100%;
     height: 54px;
     border: 2px solid #fff;
     background: none;
@@ -620,6 +627,46 @@ footer .footer-top p{
     font-size: 14px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media  (max-width: 768px) {
     .container{
         max-width: 93.75%;
@@ -657,7 +704,7 @@ footer .footer-top p{
         font-size: 20px;
     }
     #introduction .container .intro-text button{
-        width: 720px;
+        width: 100%;
     }
     /* about */
     #about .about-chef .about-right img {
@@ -847,6 +894,7 @@ footer .footer-top p{
         line-height: 25px;
         font-size: 14px;
     }
+}
 
 
 
@@ -854,3 +902,135 @@ footer .footer-top p{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 530px) {
+    #about .container .about-chef{
+        flex-wrap: wrap;
+    }
+    #about .container .about-chef .about-left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #about .container .about-chef .about-right{
+        width: 100%;
+    }
+    #about .container .about-chef .about-right img{
+        width: 100%;
+    }
+
+
+    #offer .container .offer-top-bottom .offer-top{
+        width: 100%;
+    }
+    #offer .container .offer-top-bottom .offer-bottom figure{
+        width: 100%;
+    }
+    #offer .container .offer-top-bottom .offer-bottom figure img{
+        width: 100%;
+    }
+    #offer .container .offer-top-bottom .offer-bottom{
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    #offer .container .offer-top-bottom .offer-bottom .sausage{
+        display: none;
+    }
+    #menu .container .menu-top-bottom .menu-top{
+        width: 100%;
+    }
+    #menu .container .menu-top-bottom .menu-top .intervals-day{
+        flex-direction: column;
+        width: 100%;
+    }
+    #menu .container .menu-top-bottom .menu-top .intervals-day a{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #menu .container .menu-top-bottom .menu-bottom{
+        flex-direction: column;
+    }
+    #menu .container .menu-top-bottom .menu-bottom .menu-bottom-left{
+        width: 100%;
+    }
+    #menu .container .menu-top-bottom .menu-bottom .menu-bottom-left figure{
+        width: 100%;
+    }
+    #menu .container .menu-top-bottom .menu-bottom .menu-bottom-right{
+        width: 100%;
+    }
+    #menu .container .menu-top-bottom .menu-bottom .menu-bottom-right figure{
+        width: 100%;
+    }
+
+    #news .container .news-top-bottom .news-top{
+        width: 100%;
+    }
+    #news .container .news-top-bottom .news-bottom{
+        flex-wrap: wrap;
+    }
+    #news .container .news-top-bottom .news-bottom figure{
+        width: 100%;
+    }
+
+    #gallery .container .gallery-top-bottom .gallery-top{
+        width: 100%;
+    }
+    #gallery .container .gallery-top-bottom .gallery-bottom{
+        flex-wrap: wrap;
+    }
+    #gallery .container .gallery-top-bottom .gallery-bottom div{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #gallery .container .gallery-top-bottom .gallery-bottom div img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #contact .container .contact-top-bottom .contact-top{
+        width: 100%;
+    }
+    #contact .container .contact-top-bottom .contact-bottom{
+        flex-wrap: wrap;
+    }
+    #contact .container .contact-top-bottom .contact-bottom .contact-bottom-left{
+        width: 100%;
+    }
+    #contact .container .contact-top-bottom .contact-bottom .contact-bottom-right{
+        width: 100%;
+        margin-top: 60px;
+    }
+    #contact .container .contact-top-bottom .contact-bottom .contact-bottom-right img{
+        width: 100%;
+        height: 300px;
+    }
+    footer .container .footer-top-bottom .footer-top{
+        flex-wrap: wrap;
+    }
+    footer .container .footer-top-bottom .footer-top div{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+}
